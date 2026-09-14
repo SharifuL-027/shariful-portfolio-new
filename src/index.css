@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  /* Cinematic Colors */
+  --color-true-black: #050505;
+  --color-off-white: #f4f4f5;
+  
+  /* Cinematic Fonts */
+  --font-sans: "Inter", sans-serif;
+  --font-serif: "Playfair Display", serif;
+}
+
+/* Lenis scroll er dorkari basic reset */
+html.lenis {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
